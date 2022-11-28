@@ -1,0 +1,83 @@
+09:44:57 DEBUG : Logs will be stored at '/home/danny/Desktop/ECE_524/ECE_524_Project/software1/IDE.log'.
+09:44:58 INFO  : Launching XSCT server: xsct -n  -interactive /home/danny/Desktop/ECE_524/ECE_524_Project/software1/temp_xsdb_launch_script.tcl
+09:44:58 INFO  : Registering command handlers for Vitis TCF services
+09:44:59 INFO  : Platform repository initialization has completed.
+09:45:01 INFO  : XSCT server has started successfully.
+09:45:01 INFO  : Successfully done setting XSCT server connection channel  
+09:45:01 INFO  : plnx-install-location is set to ''
+09:45:01 INFO  : Successfully done setting workspace for the tool. 
+09:45:01 INFO  : Successfully done query RDI_DATADIR 
+09:45:52 INFO  : Result from executing command 'getProjects': design_1_wrapper
+09:45:52 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+09:45:53 WARN  : An unexpected exception occurred in the module 'platform project logging'
+09:45:53 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+09:46:01 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+09:59:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:00:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:00:45 INFO  : Result from executing command 'getProjects': design_1_wrapper
+10:00:45 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/danny/Desktop/ECE_524/ECE_524_Project/software1/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/opt/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:00:49 INFO  : Checking for BSP changes to sync application flags for project 'swtest2'...
+10:05:20 INFO  : Checking for BSP changes to sync application flags for project 'swtest2'...
+10:05:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:09:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:11:08 DEBUG : Logs will be stored at '/home/danny/Desktop/ECE_524/ECE_524_Project/software1/IDE.log'.
+10:11:08 INFO  : Launching XSCT server: xsct -n  -interactive /home/danny/Desktop/ECE_524/ECE_524_Project/software1/temp_xsdb_launch_script.tcl
+10:11:12 INFO  : Registering command handlers for Vitis TCF services
+10:11:12 INFO  : Platform repository initialization has completed.
+10:11:12 INFO  : XSCT server has started successfully.
+10:11:12 INFO  : Successfully done setting XSCT server connection channel  
+10:11:12 INFO  : plnx-install-location is set to ''
+10:11:13 INFO  : Successfully done setting workspace for the tool. 
+10:11:13 INFO  : Successfully done query RDI_DATADIR 
+10:14:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:15:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:15:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FED4A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FED4A-13722093-0"}' command is executed.
+10:15:25 INFO  : Device configured successfully with "/home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/_ide/bitstream/design_1_wrapper.bit"
+10:15:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:15:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FED4A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FED4A-13722093-0"}' command is executed.
+10:15:47 INFO  : Device configured successfully with "/home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/_ide/bitstream/design_1_wrapper.bit"
+10:28:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:28:20 INFO  : Jtag cable 'Digilent Zybo Z7 210351B3FED4A' is selected.
+10:28:20 INFO  : 'jtag frequency' command is executed.
+10:28:20 INFO  : Context for 'APU' is selected.
+10:28:21 INFO  : System reset is completed.
+10:28:24 INFO  : 'after 3000' command is executed.
+10:28:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FED4A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FED4A-13722093-0"}' command is executed.
+10:28:25 INFO  : Device configured successfully with "/home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/_ide/bitstream/design_1_wrapper.bit"
+10:28:25 INFO  : Context for 'APU' is selected.
+10:28:25 INFO  : Hardware design and registers information is loaded from '/home/danny/Desktop/ECE_524/ECE_524_Project/software1/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+10:28:25 INFO  : 'configparams force-mem-access 1' command is executed.
+10:28:25 INFO  : Context for 'APU' is selected.
+10:28:25 INFO  : Sourcing of '/home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/_ide/psinit/ps7_init.tcl' is done.
+10:28:25 INFO  : 'ps7_init' command is executed.
+10:28:25 INFO  : 'ps7_post_config' command is executed.
+10:28:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:28:25 INFO  : The application '/home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/Debug/swtest2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:28:25 INFO  : 'configparams force-mem-access 0' command is executed.
+10:28:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FED4A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FED4A-13722093-0"}
+fpga -file /home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/danny/Desktop/ECE_524/ECE_524_Project/software1/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/danny/Desktop/ECE_524/ECE_524_Project/software1/swtest2/Debug/swtest2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:28:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:28:25 INFO  : 'con' command is executed.
+10:28:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:28:25 INFO  : Disconnected from the channel tcfchan#1.
