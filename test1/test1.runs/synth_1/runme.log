@@ -25,172 +25,86 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 33106
+INFO: [Synth 8-7075] Helper process launched with PID 126533
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2456.207 ; gain = 371.770 ; free physical = 517 ; free virtual = 15298
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3460.559; parent = 2462.148; children = 998.410
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2456.754 ; gain = 373.738 ; free physical = 1687 ; free virtual = 14260
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3459.137; parent = 2460.727; children = 998.410
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:12]
-INFO: [Synth 8-6157] synthesizing module 'design_1_PmodCAN_0_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_PmodCAN_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_PmodCAN_0_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_PmodCAN_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_processing_system7_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_processing_system7_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:317]
-WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:317]
-WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 66 connections declared, but only 64 given [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:317]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:476]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_15SPJYW' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1021]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_15SPJYW' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1021]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_XU9C55' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1153]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_XU9C55' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1153]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1285]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_auto_pc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_auto_pc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1285]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_xbar_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:980]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:980]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'design_1_xbar_0' has 40 connections declared, but only 38 given [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:980]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:476]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_rst_ps7_0_50M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-33076-danny-Surface-Book-3/realtime/design_1_rst_ps7_0_50M_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:463]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:463]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:463]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:463]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'design_1_rst_ps7_0_50M_0' has 10 connections declared, but only 6 given [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:463]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xlconcat_0_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/synth/design_1_xlconcat_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconcat_0_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/synth/design_1_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'design_1_PmodCAN_0_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_PmodCAN_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_PmodCAN_0_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_PmodCAN_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'SPI_interrupt' of module 'design_1_PmodCAN_0_0' is unconnected for instance 'PmodCAN_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:250]
+WARNING: [Synth 8-7071] port 'GPIO_interrupt' of module 'design_1_PmodCAN_0_0' is unconnected for instance 'PmodCAN_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:250]
+WARNING: [Synth 8-7023] instance 'PmodCAN_0' of module 'design_1_PmodCAN_0_0' has 63 connections declared, but only 61 given [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:250]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_processing_system7_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_processing_system7_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:312]
+WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:312]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 65 connections declared, but only 63 given [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:312]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:466]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_15SPJYW' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1011]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_15SPJYW' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1011]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_XU9C55' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1143]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_XU9C55' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1143]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1275]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_auto_pc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_auto_pc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:1275]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_xbar_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:970]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:970]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'design_1_xbar_0' has 40 connections declared, but only 38 given [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:970]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:466]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_rst_ps7_0_50M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/.Xil/Vivado-126491-danny-Surface-Book-3/realtime/design_1_rst_ps7_0_50M_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:457]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:457]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:457]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:457]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'design_1_rst_ps7_0_50M_0' has 10 connections declared, but only 6 given [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:457]
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/synth/design_1.v:12]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/opt/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [/opt/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
-WARNING: [Synth 8-7129] Port In2[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In3[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In9[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In10[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In11[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In12[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In13[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In14[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In15[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In16[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In17[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In18[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In19[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In20[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In21[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In22[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In23[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In24[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In25[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In26[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In27[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In28[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In29[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In30[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In31[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In32[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In33[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In56[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In57[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In58[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In59[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In60[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In61[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In62[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In63[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In64[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In65[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In66[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In67[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In68[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In69[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In70[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In71[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In72[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In73[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In74[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In75[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In76[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In77[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In78[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In79[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In80[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In81[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In82[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In83[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In84[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In85[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In86[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In87[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In88[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In89[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In90[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In91[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In92[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In93[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In94[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In95[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In96[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In97[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In98[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In99[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In100[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In101[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_UYSKKA is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_UYSKKA is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m01_couplers_imp_XU9C55 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m01_couplers_imp_XU9C55 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m01_couplers_imp_XU9C55 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m01_couplers_imp_XU9C55 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_15SPJYW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_15SPJYW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m00_couplers_imp_15SPJYW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m00_couplers_imp_15SPJYW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2541.113 ; gain = 456.676 ; free physical = 608 ; free virtual = 15389
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3539.527; parent = 2541.117; children = 998.410
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2539.691 ; gain = 456.676 ; free physical = 1778 ; free virtual = 14351
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3538.105; parent = 2539.695; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2558.926 ; gain = 474.488 ; free physical = 608 ; free virtual = 15389
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3557.340; parent = 2558.930; children = 998.410
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2557.504 ; gain = 474.488 ; free physical = 1780 ; free virtual = 14353
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3555.918; parent = 2557.508; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2558.926 ; gain = 474.488 ; free physical = 608 ; free virtual = 15389
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3557.340; parent = 2558.930; children = 998.410
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2557.504 ; gain = 474.488 ; free physical = 1780 ; free virtual = 14353
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3555.918; parent = 2557.508; children = 998.410
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2564.863 ; gain = 0.000 ; free physical = 604 ; free virtual = 15385
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2563.441 ; gain = 0.000 ; free physical = 1774 ; free virtual = 14347
 INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -208,42 +122,42 @@ Finished Parsing XDC File [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/tes
 Parsing XDC File [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
 Finished Parsing XDC File [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
 Parsing XDC File [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'jc[0]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:126]
-WARNING: [Vivado 12-584] No ports matched 'jc[1]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:127]
-WARNING: [Vivado 12-584] No ports matched 'jc[2]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:128]
-WARNING: [Vivado 12-584] No ports matched 'jc[3]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:129]
-WARNING: [Vivado 12-584] No ports matched 'jc[4]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:130]
-WARNING: [Vivado 12-584] No ports matched 'jc[5]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:131]
-WARNING: [Vivado 12-584] No ports matched 'jc[6]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:132]
-WARNING: [Vivado 12-584] No ports matched 'jc[7]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:133]
+WARNING: [Vivado 12-584] No ports matched 'jc[0]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:128]
+WARNING: [Vivado 12-584] No ports matched 'jc[1]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:129]
+WARNING: [Vivado 12-584] No ports matched 'jc[2]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:130]
+WARNING: [Vivado 12-584] No ports matched 'jc[3]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:131]
+WARNING: [Vivado 12-584] No ports matched 'jc[4]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:132]
+WARNING: [Vivado 12-584] No ports matched 'jc[5]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:133]
+WARNING: [Vivado 12-584] No ports matched 'jc[6]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:134]
+WARNING: [Vivado 12-584] No ports matched 'jc[7]'. [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc:135]
 Finished Parsing XDC File [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.srcs/constrs_1/new/zyb0-master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 Parsing XDC File [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2672.676 ; gain = 0.000 ; free physical = 517 ; free virtual = 15303
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2661.254 ; gain = 0.000 ; free physical = 1704 ; free virtual = 14277
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 8 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 8 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2672.676 ; gain = 0.000 ; free physical = 517 ; free virtual = 15303
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2661.254 ; gain = 0.000 ; free physical = 1704 ; free virtual = 14277
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 575 ; free virtual = 15361
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1776 ; free virtual = 14349
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 575 ; free virtual = 15361
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1776 ; free virtual = 14349
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -515,16 +429,15 @@ Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps7_0_axi_periph/xbar.
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps7_0_axi_periph. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/rst_ps7_0_50M. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xlconcat_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 575 ; free virtual = 15361
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1776 ; free virtual = 14349
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 572 ; free virtual = 15359
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1777 ; free virtual = 14351
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -546,34 +459,40 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps7_0_axi_periph_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 559 ; free virtual = 15346
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1885.597; parent = 1674.679; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1763 ; free virtual = 14342
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1888.977; parent = 1679.483; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 447 ; free virtual = 15233
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1954.647; parent = 1744.101; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1645 ; free virtual = 14223
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1959.425; parent = 1750.307; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 447 ; free virtual = 15233
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1954.819; parent = 1744.304; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1645 ; free virtual = 14223
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1959.589; parent = 1750.502; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 426 ; free virtual = 15230
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.499; parent = 1744.983; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14222
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.308; parent = 1751.221; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -591,49 +510,49 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 457 ; free virtual = 15248
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.679; parent = 1745.163; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14221
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.464; parent = 1751.377; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 457 ; free virtual = 15248
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.694; parent = 1745.179; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14221
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.479; parent = 1751.393; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 457 ; free virtual = 15248
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.757; parent = 1745.241; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14221
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.542; parent = 1751.455; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 457 ; free virtual = 15248
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.757; parent = 1745.241; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14221
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.542; parent = 1751.455; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 457 ; free virtual = 15248
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.757; parent = 1745.241; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14221
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.542; parent = 1751.455; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 457 ; free virtual = 15248
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.772; parent = 1745.257; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14221
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.558; parent = 1751.471; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -662,29 +581,31 @@ Report Cell Usage:
 |6     |IOBUF                         |     8|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 457 ; free virtual = 15248
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1955.804; parent = 1745.288; children = 210.918
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3639.074; parent = 2640.664; children = 998.410
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1643 ; free virtual = 14221
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1960.589; parent = 1751.502; children = 209.493
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3627.652; parent = 2629.242; children = 998.410
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2672.676 ; gain = 474.488 ; free physical = 514 ; free virtual = 15300
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2672.676 ; gain = 588.238 ; free physical = 514 ; free virtual = 15300
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2661.254 ; gain = 474.488 ; free physical = 1699 ; free virtual = 14277
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2661.254 ; gain = 578.238 ; free physical = 1699 ; free virtual = 14277
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2672.676 ; gain = 0.000 ; free physical = 509 ; free virtual = 15295
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2661.254 ; gain = 0.000 ; free physical = 1694 ; free virtual = 14272
 INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2672.676 ; gain = 0.000 ; free physical = 552 ; free virtual = 15339
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2661.254 ; gain = 0.000 ; free physical = 1742 ; free virtual = 14320
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 8 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 8 instances
 
-Synth Design complete, checksum: 19834058
+Synth Design complete, checksum: 766500ac
 INFO: [Common 17-83] Releasing license: Synthesis
-57 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+52 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 2672.676 ; gain = 899.512 ; free physical = 751 ; free virtual = 15538
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 2661.254 ; gain = 888.574 ; free physical = 1936 ; free virtual = 14514
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
 INFO: [Common 17-1381] The checkpoint '/home/danny/Desktop/ECE_524/ECE_524_Project/test1/test1.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 21 09:41:12 2022...
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  2 12:55:36 2022...

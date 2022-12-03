@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-//Date        : Mon Nov 21 09:39:37 2022
+//Date        : Fri Dec  2 12:54:58 2022
 //Host        : danny-Surface-Book-3 running 64-bit Ubuntu 22.04.1 LTS
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -9,7 +9,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=10,numReposBlks=6,numNonXlnxBlks=1,numHierBlks=4,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=2,da_clkrst_cnt=1,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=9,numReposBlks=5,numNonXlnxBlks=1,numHierBlks=4,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=2,da_clkrst_cnt=5,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (DDR_addr,
     DDR_ba,
@@ -102,7 +102,6 @@ module design_1
   (* X_INTERFACE_INFO = "digilentinc.com:interface:pmod:1.0 jc PIN9_O" *) output jc_pin9_o;
   (* X_INTERFACE_INFO = "digilentinc.com:interface:pmod:1.0 jc PIN9_T" *) output jc_pin9_t;
 
-  wire PmodCAN_0_GPIO_interrupt;
   wire PmodCAN_0_Pmod_out_PIN10_I;
   wire PmodCAN_0_Pmod_out_PIN10_O;
   wire PmodCAN_0_Pmod_out_PIN10_T;
@@ -127,7 +126,6 @@ module design_1
   wire PmodCAN_0_Pmod_out_PIN9_I;
   wire PmodCAN_0_Pmod_out_PIN9_O;
   wire PmodCAN_0_Pmod_out_PIN9_T;
-  wire PmodCAN_0_SPI_interrupt;
   wire [14:0]processing_system7_0_DDR_ADDR;
   wire [2:0]processing_system7_0_DDR_BA;
   wire processing_system7_0_DDR_CAS_N;
@@ -224,7 +222,6 @@ module design_1
   wire [3:0]ps7_0_axi_periph_M01_AXI_WSTRB;
   wire [0:0]ps7_0_axi_periph_M01_AXI_WVALID;
   wire [0:0]rst_ps7_0_50M_peripheral_aresetn;
-  wire [1:0]xlconcat_0_dout;
 
   assign PmodCAN_0_Pmod_out_PIN10_I = jc_pin10_i;
   assign PmodCAN_0_Pmod_out_PIN1_I = jc_pin1_i;
@@ -285,7 +282,6 @@ module design_1
         .AXI_LITE_SPI_wready(ps7_0_axi_periph_M01_AXI_WREADY),
         .AXI_LITE_SPI_wstrb(ps7_0_axi_periph_M01_AXI_WSTRB),
         .AXI_LITE_SPI_wvalid(ps7_0_axi_periph_M01_AXI_WVALID),
-        .GPIO_interrupt(PmodCAN_0_GPIO_interrupt),
         .Pmod_out_pin10_i(PmodCAN_0_Pmod_out_PIN10_I),
         .Pmod_out_pin10_o(PmodCAN_0_Pmod_out_PIN10_O),
         .Pmod_out_pin10_t(PmodCAN_0_Pmod_out_PIN10_T),
@@ -310,7 +306,6 @@ module design_1
         .Pmod_out_pin9_i(PmodCAN_0_Pmod_out_PIN9_I),
         .Pmod_out_pin9_o(PmodCAN_0_Pmod_out_PIN9_O),
         .Pmod_out_pin9_t(PmodCAN_0_Pmod_out_PIN9_T),
-        .SPI_interrupt(PmodCAN_0_SPI_interrupt),
         .ext_spi_clk(processing_system7_0_FCLK_CLK0),
         .s_axi_aclk(processing_system7_0_FCLK_CLK0),
         .s_axi_aresetn(rst_ps7_0_50M_peripheral_aresetn));
@@ -334,7 +329,6 @@ module design_1
         .DDR_WEB(DDR_we_n),
         .FCLK_CLK0(processing_system7_0_FCLK_CLK0),
         .FCLK_RESET0_N(processing_system7_0_FCLK_RESET0_N),
-        .IRQ_F2P(xlconcat_0_dout),
         .MIO(FIXED_IO_mio[53:0]),
         .M_AXI_GP0_ACLK(processing_system7_0_FCLK_CLK0),
         .M_AXI_GP0_ARADDR(processing_system7_0_M_AXI_GP0_ARADDR),
@@ -467,10 +461,6 @@ module design_1
         .mb_debug_sys_rst(1'b0),
         .peripheral_aresetn(rst_ps7_0_50M_peripheral_aresetn),
         .slowest_sync_clk(processing_system7_0_FCLK_CLK0));
-  design_1_xlconcat_0_0 xlconcat_0
-       (.In0(PmodCAN_0_SPI_interrupt),
-        .In1(PmodCAN_0_GPIO_interrupt),
-        .dout(xlconcat_0_dout));
 endmodule
 
 module design_1_ps7_0_axi_periph_0

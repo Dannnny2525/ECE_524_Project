@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;swtest2/src/examples/TX.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;TX.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/examples/TX.c" name="main.c" stamp="1669056763592" updateReferences="true"/>
-</session>

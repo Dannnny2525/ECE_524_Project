@@ -21,8 +21,7 @@
         "m00_couplers": {},
         "m01_couplers": {}
       },
-      "rst_ps7_0_50M": "",
-      "xlconcat_0": ""
+      "rst_ps7_0_50M": ""
     },
     "interface_ports": {
       "DDR": {
@@ -508,9 +507,6 @@
             "value": "0"
           },
           "PCW_I2C_RESET_ENABLE": {
-            "value": "1"
-          },
-          "PCW_IRQ_F2P_INTR": {
             "value": "1"
           },
           "PCW_IRQ_F2P_MODE": {
@@ -1333,7 +1329,7 @@
             "value": "0"
           },
           "PCW_USE_FABRIC_INTERRUPT": {
-            "value": "1"
+            "value": "0"
           },
           "PCW_USE_M_AXI_GP0": {
             "value": "1"
@@ -1872,12 +1868,6 @@
         "xci_name": "design_1_rst_ps7_0_50M_0",
         "xci_path": "ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0.xci",
         "inst_hier_path": "rst_ps7_0_50M"
-      },
-      "xlconcat_0": {
-        "vlnv": "xilinx.com:ip:xlconcat:2.1",
-        "xci_name": "design_1_xlconcat_0_0",
-        "xci_path": "ip/design_1_xlconcat_0_0/design_1_xlconcat_0_0.xci",
-        "inst_hier_path": "xlconcat_0"
       }
     },
     "interface_nets": {
@@ -1919,18 +1909,6 @@
       }
     },
     "nets": {
-      "PmodCAN_0_GPIO_interrupt": {
-        "ports": [
-          "PmodCAN_0/GPIO_interrupt",
-          "xlconcat_0/In1"
-        ]
-      },
-      "PmodCAN_0_SPI_interrupt": {
-        "ports": [
-          "PmodCAN_0/SPI_interrupt",
-          "xlconcat_0/In0"
-        ]
-      },
       "processing_system7_0_FCLK_CLK0": {
         "ports": [
           "processing_system7_0/FCLK_CLK0",
@@ -1958,12 +1936,6 @@
           "ps7_0_axi_periph/M00_ARESETN",
           "ps7_0_axi_periph/ARESETN",
           "ps7_0_axi_periph/M01_ARESETN"
-        ]
-      },
-      "xlconcat_0_dout": {
-        "ports": [
-          "xlconcat_0/dout",
-          "processing_system7_0/IRQ_F2P"
         ]
       }
     },
